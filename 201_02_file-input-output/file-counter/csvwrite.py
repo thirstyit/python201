@@ -1,3 +1,4 @@
+# Write the file counts to a `.csv` file.
 import csv
 # -- snip --
 count = {'': 8, '.csv': 2, '.md': 2, '.png': 11}
