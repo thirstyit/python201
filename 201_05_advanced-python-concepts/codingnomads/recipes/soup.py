@@ -1,11 +1,5 @@
-# from ..ingredients import Ingredient
-# from ..codingnomads.ingredients import Ingredient
-
-class Soup():
-    def __init__(self, *args):
-        self.args = args
-    def __str__(self):
-        return str(self.args)
-
-    
-# print(Ingredient())
+# soup.py
+def make_soup(ingredient):
+    soup = f"{ingredient} soup"
+    print(f"You've made {soup}")
+    return soup

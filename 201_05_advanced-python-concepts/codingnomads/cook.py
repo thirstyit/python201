@@ -1,6 +1,4 @@
-from ingredients import Ingredient
-from recipes.soup import Soup
+# cook.py
+soup = "pumpkin soup"
 
-c = Ingredient()
-s = Soup(c)
-print(s)
+print(f"{soup} is soooo good!")
