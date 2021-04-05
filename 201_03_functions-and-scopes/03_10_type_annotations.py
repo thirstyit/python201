@@ -10,6 +10,3 @@ def greet(greeting, name):
 def shopping_list(*args):
     [print(f"* {item}") for item in args]
     return args
-
-
-# print(shopping_list("cutlets", "blueberries", "ice cream"))
