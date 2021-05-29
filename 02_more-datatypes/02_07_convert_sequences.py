@@ -5,8 +5,3 @@
 # - Convert the list back into a tuple.
 
 string = "codingnomads"
-t = tuple(string)
-li = list(t)
-li[0] = "k"
-t2 = tuple(li)
-print(t2)

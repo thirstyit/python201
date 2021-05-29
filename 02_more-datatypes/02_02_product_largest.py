@@ -7,4 +7,3 @@
 from resource import randlist
 
 print(randlist)
-print(max(randlist))
