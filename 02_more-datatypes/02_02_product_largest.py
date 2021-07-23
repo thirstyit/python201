@@ -4,6 +4,6 @@
 # Find the largest number in the list and print the result.
 # Calculate the product of all of the numbers in the list.
 
-from resource import randlist
+from resources import randlist
 
 print(randlist)
