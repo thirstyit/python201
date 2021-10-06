@@ -1,4 +1,4 @@
-# Take in 10 numbers from the user. Place the numbers in a list.
+# Take in a few numbers from the user and place them in a list.
 # You can also use the provided random `randlist` list
 # to simulate user input.
 # Find the largest number in the list and print the result.
