@@ -3,6 +3,6 @@
 # Confirm that the input can be converted to an integer,
 # then add it to a Python `set()`.
 # If the element was already in the set, notify the user that their
-# input hasn't been added and deduce a point.
-# If the user gets loses 5 points, quite the program.
-# They wil if they manage to create a set that has more than 10 items.
+# their input is a duplicate and deduct a point.
+# If the user loses 5 points, quit the program.
+# They win if they manage to create a set that has more than 10 items.
