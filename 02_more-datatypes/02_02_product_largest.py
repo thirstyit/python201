@@ -1,6 +1,7 @@
 # Take in a few numbers from the user and place them in a list.
-# You can also use the provided random `randlist` list
-# to simulate user input.
+# If you want, you can instead use the provided randomly generated
+# list called `randlist` to simulate the user input.
+#
 # Find the largest number in the list and print the result.
 # Calculate the product of all of the numbers in the list.
 
