@@ -1,6 +1,6 @@
-# Use a quotes API, e.g. http://quotes.stormconsultancy.co.uk/random.json
+# Use a quotes API, e.g. https://api.quotable.io/quotes/random
 # to fetch a random quote. Then use string manipulation to convert it to
-# Doge speech (https://blogs.unimelb.edu.au/sciencecommunication/2016/10/22/how-to-speak-doge/)
+# Doge speech (https://en.wikipedia.org/wiki/Doge_(meme))
 # Create a tiny webpage that displays a doge image together
 # with the altered quote. You can get an image URL from another API:
 # http://shibe.online/api/shibes
