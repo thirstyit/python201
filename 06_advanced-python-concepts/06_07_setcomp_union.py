@@ -1,4 +1,4 @@
-# Use the union operator `|` to intersect the two given sets
+# Use the union operator `|` to combine the two given sets
 # inside of a set comprehension that squares each item of the
 # set if the number is higher than `2`.
 # You should write the whole code logic in only one line.
