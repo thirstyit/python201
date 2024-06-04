@@ -6,3 +6,23 @@
 # their input is a duplicate and deduct a point.
 # If the user loses 5 points, quit the program.
 # They win if they manage to create a set that has more than 10 items.
+
+pointslost = 0
+pointswon = 0 
+set_ = set()
+while pointslost > -5 and pointswon < 10:
+    val = input("Enter New Integer Value: ")
+    if val in set_:
+        pointslost -= 1
+    else:
+        set_.add(val)
+        pointswon +=1
+
+if pointswon == 10:
+    print(set_)
+    print("You win!")
+
+if pointslost == -5:
+    print(set_)
+    print("You lost!")
+
