@@ -4,3 +4,19 @@
 #
 # user_input = "hello"
 # result = {"h": 1, "e": 1, "l": 2, "o": 1}
+
+
+user_input = "hello there"
+
+result = {}
+
+temp_list = list(user_input)
+
+
+for c in temp_list:
+    if c in result:
+        result[c] += 1
+    else:
+        result[c] = 1
+
+print(result) 
