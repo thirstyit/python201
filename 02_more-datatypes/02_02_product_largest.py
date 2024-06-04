@@ -7,4 +7,18 @@
 
 from resources import randlist
 
+
 print(randlist)
+
+randlist.sort()
+
+maxnum = randlist[-1]
+
+print(maxnum)
+
+y = 1
+for x in randlist:
+    y *= randlist.pop()
+
+print(y)
+

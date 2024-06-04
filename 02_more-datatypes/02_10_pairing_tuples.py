@@ -17,3 +17,31 @@ from resources import randlist
 print(randlist)
 
 # Write your code below here
+
+randlist.sort()
+
+rg = len(randlist)
+
+mainlist = []
+
+if rg % 2 == 0:
+    start = 0
+    doub = 2
+    while doub <= rg:
+        splitbyTwo = randlist[start:doub]
+        doub += 2
+        start += 2
+        mainlist.append(tuple(splitbyTwo))
+
+if rg % 2 == 1:
+    start = 0
+    doub = 2
+    while doub <= rg:
+        splitbyTwo = randlist[start:doub]
+        doub += 2
+        start += 2
+        mainlist.append(tuple(splitbyTwo))
+    mainlist.append((0, randlist[-1]))
+
+
+print(mainlist)

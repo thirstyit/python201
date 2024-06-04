@@ -5,3 +5,13 @@
 # - Convert the list back into a tuple.
 
 string = "codingnomads"
+
+tup = tuple(string)
+
+lis = list(tup)
+
+lis[0] = 'k'
+
+tup2 = tuple(lis)
+
+print(tup2)

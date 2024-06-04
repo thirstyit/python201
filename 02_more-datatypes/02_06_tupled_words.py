@@ -4,3 +4,17 @@
 
 # input = "hello world"
 # result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
+
+
+input = "hello world"
+
+words = input.split(' ')
+
+result_list = []
+
+for x in words:
+    tup = tuple(list(x))
+    result_list.append(tup)
+
+
+print(result_list)
