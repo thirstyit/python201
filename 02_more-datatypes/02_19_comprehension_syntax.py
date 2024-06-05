@@ -6,3 +6,7 @@
 # but try to do it using a list comprehension.
 
 word = "codingnomads"
+
+new_list = [f"{character}" for character in word]
+
+print(new_list)
