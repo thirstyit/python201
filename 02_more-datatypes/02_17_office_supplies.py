@@ -22,3 +22,15 @@ office = [
     {"full_name": "Creed Bratton", "item": "mung beans"},
     {"full_name": "Darryl Philbin", "item": "forklift"},
 ]
+
+
+for o in office:
+    first_name = o["full_name"].split(' ')[0]
+    last_name = o["full_name"].split(' ')[1]
+    item_ = o["item"]
+
+    num_spaces = 25 - len(o["full_name"])
+
+    spaces = "                         "
+
+    print(f"{last_name}, {first_name} {spaces[:num_spaces]} {item_}")
