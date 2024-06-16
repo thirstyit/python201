@@ -1,4 +1,4 @@
-Create a new folder. Inside of that folder:
+pip3Create a new folder. Inside of that folder:
 1. Create a new Python virtual environment
 2. Activate the virtual environment
 3. Install three external packages in the virtual environment.
